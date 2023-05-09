@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Welcome to Our Survey!</h1>
+    <p id="description">We'd love to hear your feedback. Please fill out the form below:</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+      <label for="number" id="number-label">Age:</label>
+      <input type="number" id="number" name="age" min="18" max="100" placeholder="Enter your age" required>
+
+      <label for="dropdown">What is your favorite color?</label>
+      <select id="dropdown" name="color" required>
+        <option value="">Select an option</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+
+      <label>What kind of movies do you like?</label>
+      <div>
+        <input type="radio" id="action" name="movie" value="action">
+        <label for="action">Action</label>
+      </div>
+      <div>
+        <input type="radio" id="comedy" name="movie" value="comedy">
+        <label for="comedy">Comedy</label>
+      </div>
+      <div>
+        <input type="radio" id="drama" name="movie" value="drama">
+        <label for="drama">Drama</label>
+      </div>
+
+      <label>Which of the following do you like?</label>
+      <div>
+        <input type="checkbox" id="pizza" name="food" value="pizza">
+        <label for="pizza">Pizza</label>
+      </div>
+      <div>
+        <input type="checkbox" id="burger" name="food" value="burger">
+        <label for="burger">Burger</label>
+      </div>
+      <div>
+        <input type="checkbox" id="taco" name="food" value="taco">
+        <label for="taco">Taco</label>
+      </div>
+
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" name="comments" rows="5" placeholder="Enter your comments here"></textarea>
+
+      <input type="submit" id="submit" value="Submit">
+    </form>
+  </body>
+</html>
