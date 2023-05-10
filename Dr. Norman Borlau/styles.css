@@ -1,0 +1,113 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    }
+    
+    header {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    padding: 10px;
+    }
+    
+    #title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    }
+    
+    #main {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    }
+    
+    #img-caption {
+    color: #777;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    }
+    
+    #tribute-info {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+    }
+    
+    #tribute-info h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    
+    #tribute-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    #tribute-info li {
+    margin-bottom: 5px;
+    }
+    
+    #tribute-info a {
+    color: #007bff;
+    text-decoration: none;
+    }
+    
+    #tribute-info a:hover {
+    text-decoration: underline;
+    }
+    
+    #image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #ccc; /* Add a border to the image /
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); / Add a subtle box-shadow to the image */
+    }
+    
+    /* Add hover effect to the image */
+    #image:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    }
+    
+    /* Add a caption to the image */
+    #image:after {
+    content: attr(alt);
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin: 10px auto;
+    color: #555;
+    }
+    
+    /* Add a background color and padding to the link when hovered */
+    a:hover {
+    background-color: #eee;
+    padding: 5px;
+    }
+    
+    /* Add a border and padding to the button */
+    button {
+    border: 2px solid #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    }
+    
+    /* Change the button's background and text color when hovered */
+    button:hover {
+    background-color: #007bff;
+    color: #fff;
+    }
