@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#welcome-section">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a id="profile-link" href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="welcome-section">
+      <div class="welcome-container">
+        <h1>Welcome to my Portfolio</h1>
+        <p>Here you can find my projects and learn more about me</p>
+        <a href="#projects" class="cta">View Projects</a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-tile">
+        <h3>Project 1</h3>
+        <p>Description of project 1</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+      <div class="project-tile">
+        <h3>Project 2</h3>
+        <p>Description of project 2</p>
+        <a href="#" class="btn">View Project</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <img src="profile-pic.jpg" alt="My Profile Picture" class="profile-pic">
+        <p>Hi, I'm John! I'm a web developer with a passion for creating beautiful and functional websites. I specialize in HTML, CSS, and JavaScript, and I'm always learning new technologies to improve my skills. When I'm not coding, you can find me hiking, playing guitar, or reading a good book.</p>
+      </div>
+      <div class="skills-container">
+        <h3>My Skills</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <p>© 2023 John Doe</p>
+        <div class="social-media-links">
+          <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/yourusername/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/yourusername/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
+
